@@ -30,9 +30,32 @@ margin-top: 4em;}
 .about-us{width:50%;
     position:absolute;
     right: 200px;
-    margin-top:200px;
-    
+    margin-top:100px;
     color:rgb(78, 76, 76);
     font-weight: 900; }
 .move-right{text-align: left;
 padding-left: 2in;}
+
+.col-green{color:green;
+    position: absolute;
+    right:350px;}
+.keto-coleection{margin-top: 4em;
+margin-bottom:7em;}
+
+.second-button{position: absolute;
+    right:310px;
+    margin-top: 3em;
+    text-decoration:none;
+    color:white;
+    background-image:linear-gradient(green, yellowgreen);
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 15px;}
+.pos-cen{width:50%;
+    margin-left: auto;
+    margin-right: auto;
+text-align: justify;}
+
+.flexible-container{ width: 100%;}
+
+.one-third-width{ width:33%;}   
