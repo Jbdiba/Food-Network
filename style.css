@@ -1,14 +1,14 @@
 body{font-family: 'Poppins', sans-serif;
-margin:0;}
+    margin:0;}
 h1{font-size:40px;}
 .marg{margin-top: 5%;
-margin-left: 5%;}
+    margin-left: 5%;}
 
 .green{color:green;}
 .line-h{line-height:2px;}
 section{display:flex;}
-img{height:400px;
-    width:450px;
+img{height:500px;
+    width:550px;
     float:right;}
 .half-width{width:50%;
     padding-left:5%;
@@ -25,7 +25,7 @@ img{height:400px;
 .top-banner{background-image: url(Edited\ Image/7.png);
     width:100%;
     height:500px;
-margin-top: 8em;}
+    margin-top: 8em;}
 
 .about-us{width:50%;
     position:absolute;
@@ -34,13 +34,13 @@ margin-top: 8em;}
     color:rgb(78, 76, 76);
     font-weight: 900; }
 .move-right{text-align: left;
-padding-left: 2in;}
+    padding-left: 2in;}
 
 .col-green{color:green;
     position: absolute;
     right:350px;}
 .keto-coleection{margin-top: 4em;
-margin-bottom:5em;}
+    margin-bottom:5em;}
 
 .second-button{position: absolute;
     right:310px;
@@ -55,21 +55,36 @@ margin-bottom:5em;}
 .pos-cen{width:50%;
     margin-left: auto;
     margin-right: auto;
-text-align: justify;}
+    text-align: justify;}
 
-.flexible-container{
+.flexible-container{display:inline-flex; 
     margin-left: 5%;
     margin-right:5%;
-    
-    }
+    padding-left: 20px;
+    border-radius:20px;
+    box-shadow: 10px 20px 40px gray;}
 .third-image{
     box-shadow: 10px 20px 40px gray;
     width:250px;
     height:200px;
     border-radius: 20px;}
 .keto-col{color:green;}
-.div4{margin-top: 4em;
-    height:2in;
+.sample-rounded-box{color:black;
+    width:800px;
+    height:100px;
+    background-color: rgba(86, 216, 11, 0.849);
+    border-radius: 50px;
+    padding:10px;
+    margin-top: 6em;
+    margin-bottom: 100px;
+    box-shadow: 10px 20px 40px gray;
+    display:inline-flex;
+    margin-left: 18%;}
+
+.another{font-weight: 700;}
+   
+
+.div5{height:2in;
     background-color: gray;}
 .last{margin-top: 2em;
     text-align: center;}
