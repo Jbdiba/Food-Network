@@ -7,9 +7,8 @@ h1{font-size:40px;}
 .green{color:green;}
 .line-h{line-height:2px;}
 section{display:flex;}
-img{height:500px;
-    width:550px;
-    float:right;}
+
+
 .half-width{width:50%;
     padding-left:5%;
     padding-right:5%;}
@@ -21,8 +20,12 @@ img{height:500px;
     font-weight: 700;
     border-radius: 15px;
     }
+img{
+    height:500px;
+    width:600px;
+   margin-left: 6em;}
 
-.top-banner{background-image: url(Edited\ Image/7.png);
+.top-banner{background-image: url(7.png);
     width:100%;
     height:500px;
     margin-top: 8em;}
@@ -33,8 +36,8 @@ img{height:500px;
     margin-top:100px;
     color:rgb(78, 76, 76);
     font-weight: 900; }
-.move-right{text-align: left;
-    padding-left: 2in;}
+.aboutus-para{}
+.aboutus-heading{}
 
 .col-green{color:green;
     position: absolute;
@@ -57,29 +60,73 @@ img{height:500px;
     margin-right: auto;
     text-align: justify;}
 
-.flexible-container{display:inline-flex; 
-    margin-left: 5%;
-    margin-right:5%;
-    padding-left: 20px;
-    border-radius:20px;
-    box-shadow: 10px 20px 40px gray;}
+.flexible-container{display:flex;
+    flex-wrap:wrap;} 
+
+
+.div1{
+    width: 23.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 20px;
+    text-align: center;
+    
+    box-shadow:5px 10px 10px gray;
+    }
+
+.div2{
+    width: 23.5%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:10px 20px 20px gray;
+    }
+
+.div3{
+    width: 23.5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow:10px 20px 20px gray;
+    }
+
+
 .third-image{
-    box-shadow: 10px 20px 40px gray;
-    width:250px;
+    
+    width:260px;
     height:200px;
-    border-radius: 20px;}
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-top: 17px;
+   
+
+   
+}
+
 .keto-col{color:green;}
-.sample-rounded-box{color:black;
-    width:800px;
-    height:100px;
-    background-color: rgba(86, 216, 11, 0.849);
-    border-radius: 50px;
-    padding:10px;
-    margin-top: 6em;
-    margin-bottom: 100px;
-    box-shadow: 10px 20px 40px gray;
-    display:inline-flex;
-    margin-left: 18%;}
+
+
+.social-container{
+    height:180px;
+    display:flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1.5in;
+    margin-bottom: 1.5in;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px gray;}
+
+
+
+ .social-box{
+    width:33%;
+    text-align: center;}
+
+
+    .social-box h1{
+        font-size: 30px;
+        font-weight:bolder;}
 
 .another{font-weight: 700;}
    
